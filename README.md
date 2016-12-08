@@ -40,7 +40,7 @@ Your solution should build without any errors.
 Right Click on the bin folder in your Solution in Visual Studio and "Open Folder in File Explorer". Select all the ".dll" files and copy them.
 
 * PLEASE BACK UP YOUR STUFF
-* BEFORE OVERWRTING YOUR DLL's stop your web site in IIS.
+* BEFORE OVERWRITING YOUR DLL's stop your web site in IIS.
 
 Then go ahead to your "/inetpub/wwroot/[SiteCore Site]/Website/bin" path and overrite the ".dll" files in there.
 
