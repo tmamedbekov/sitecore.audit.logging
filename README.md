@@ -4,7 +4,16 @@ This Solution will allow you to Log Changes in Sitecore Made by Content Authors
 
 ## Sitecore 8.1 Audit Logging Solution
 
-In order to install this solution to your SiteCore Instance you need to do the following steps.
+This solution allow you to track the following action that are committed by Content Authors:
+* CREATE
+* SAVE
+* DELETE
+* COPY
+* MOVE
+* RENAME
+* SORT
+* TEMPLATE CHANGE
+* PUBLISH
 
 ## Step 1 - Add Custom code to the Solution
 
@@ -30,8 +39,8 @@ Your solution should build without any errors.
 
 Right Click on the bin folder in your Solution in Visual Studio and "Open Folder in File Explorer". Select all the ".dll" files and copy them.
 
-*** PLEASE BACK UP YOUR STUFF
-*** BEFORE OVVERRING YOUR DLL's stop your web site in IIS.
+* PLEASE BACK UP YOUR STUFF
+* BEFORE OVVERRING YOUR DLL's stop your web site in IIS.
 
 Then go ahead to your "/inetpub/wwroot/[SiteCore Site]/Website/bin" path and overrite the ".dll" files in there.
 
@@ -45,8 +54,8 @@ Add the following code in Pipelines Section
 ```
 <processor type="Custom.Diagnostics.Audit, [Your Project Name]" />
 ```
-*** Without []
-*** Project name is what you have it named in your Visual Studio
+* Without []
+* Project name is what you have it named in your Visual Studio
 
 ### Step 5.2 - Appender
 
@@ -75,7 +84,9 @@ Add the following code in Logger Section
 ```
 
 
-Congratulations you are done! Start your SiteCore Instance and start editing and tracking your logs. Now you should have an extra log file in your logs folder named <audit.log.{date}>.
+Congratulations you are done! 
+Start your SiteCore Instance and start editing and tracking your logs. 
+Now you should have an extra log file in your logs folder named <audit.log.{date}>.
 
 ## Acknowledgement
 
