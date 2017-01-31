@@ -1,4 +1,4 @@
-## SiteCore Audit Logging
+# SiteCore Audit Logging
 
 This Solution will allow you to Log Changes in Sitecore Made by Content Authors
 
