@@ -1,4 +1,4 @@
-## SiteCore Audit Logging
+# SiteCore Audit Logging
 
 This Solution will allow you to Log Changes in Sitecore Made by Content Authors
 
@@ -14,6 +14,14 @@ This solution allow you to track the following action that are committed by Cont
 * SORT
 * TEMPLATE CHANGE
 * PUBLISH
+
+# Package installation
+To install this package in your Sitecore instance:
+- Visit the update & installation wizard on your site http://[instance]/sitecore/admin/UpdateInstallationWizard.aspx
+- Upload and install the .update package /deployment/Installtion Package/Sitecore.SharedSource.Audit.update
+- Once installed, in your data/logs folder you will find a audit.log.[time-date].log file.
+
+# Visual Studio integration
 
 ## Step 1 - Add Custom code to the Solution
 
