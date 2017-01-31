@@ -46,6 +46,20 @@
     <DebugSymbols>false</DebugSymbols>
     <OutputPath>.\bin\Release\</OutputPath>
     <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+    <PackageName>Sitecore.SharedSource.Audit</PackageName>
+    <GeneratePackage>True</GeneratePackage>
+    <SeperateFilesAndItems>False</SeperateFilesAndItems>
+    <PackageExcludeCode>False</PackageExcludeCode>
+    <AddDateTimeToPackageName>False</AddDateTimeToPackageName>
+    <PackageAuthor>
+    </PackageAuthor>
+    <PackagePublisher>
+    </PackagePublisher>
+    <PackageReadme>
+    </PackageReadme>
+    <PackageVersion>
+    </PackageVersion>
+    <SitecoreAssemblyPath>../lib/</SitecoreAssemblyPath>
   </PropertyGroup>
   <ItemGroup>
     <AssemblyAttributes Include="AssemblyFileVersion">
