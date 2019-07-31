@@ -99,6 +99,6 @@ Now you should have an extra log file in your logs folder named <audit.log.{date
 ## Acknowledgement
 
 * Adam HerrNeckar - *[Initial Work](http://info.exsquared.com/ex-squared-blog/logging-changes-in-sitecore-made-by-content-authors#web_config)*
-* Chris Auer
+* Chris Auer - [Twitter](https://twitter.com/christopherauer)
 
 Please feel free to ask questions!
